@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav{
+    box-sizing: border-box;
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    height: 80px;
+    padding: 16px 72px;
+    width: 100%;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    color: e5e7eb;
+    font-size: 18px;
+    padding: 16px 8px;
+}
+
+a {
+    color: #e5e7eb;
+}
