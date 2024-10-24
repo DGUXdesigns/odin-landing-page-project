@@ -15,6 +15,12 @@ h2 {
     font-weight: 900;
 }
 
+h3 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
 p {
     font-size: 18px;
 }
@@ -27,7 +33,7 @@ nav{
     background-color: #1f2937;
     align-items: center;
     height: 80px;
-    padding: 16px 72px;
+    padding: 16px 400px;
     width: 100%;
 }
 
@@ -65,7 +71,7 @@ a {
     flex: 1;
     width: 100%;
     background-color: #1f2937;
-    padding: 48px 72px;
+    padding: 48px 400px;
     gap: 24px;
     justify-content: space-between;
     align-items: center;
@@ -107,7 +113,7 @@ button {
 /* Information Section */
 
 .information {
-    padding: 48px 72px;
+    padding: 48px 400px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -153,3 +159,26 @@ button {
     color: #1f2937;
 }
 
+/* Call to Action */
+
+.call-to-action {
+    background-color: #3882f6;
+    padding: 48px 96px;
+    margin: 100px 400px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textcall {
+    color: #f9faf8;
+}
+
+.cta {
+    background-color: transparent;
+    border-width: 2px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #f9faf8;
+}
