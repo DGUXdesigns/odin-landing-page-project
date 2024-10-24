@@ -17,7 +17,6 @@ h2 {
 
 p {
     font-size: 18px;
-    color: #e5e7eb;
 }
 
 /* Navigation Bar */
@@ -78,6 +77,8 @@ a {
     flex-direction: column;
     gap: 16px;
     width: 50%;
+    color: #e5e7eb;
+    
 }
 
 button {
@@ -100,10 +101,33 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #e5e7eb;
 }
 
 /* Information Section */
 
-.infocards {
-    display: flex
+.information {
+    padding: 48px 72px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
 }
+.infocards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.rectangle {
+    height: 150px;
+    width: 150px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+
